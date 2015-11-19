@@ -1,0 +1,27 @@
+body {
+    background-color: #286090;
+}
+
+#login {
+    width: 400px;
+    text-align: center;
+}
+
+#register {
+     margin-top: 100px;
+     text-align: center;
+     width: 400px;
+}
+
+.container {
+    background-color: #afd9ee;
+}
+
+.jumbotron {
+    background-color: #449d44;
+}
+
+#userchoice {
+    border: 20px solid #286090; 
+}
+

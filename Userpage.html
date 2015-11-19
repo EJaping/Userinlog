@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<div class="jumbotron">
+    <div class="container">
+      <h1>Userpage!</h1>
+      <p>Here you can do all sorts of exciting things like see and change your personal data, or log out. Isn't that wonderful!</p>
+    </div>
+  </div>
+
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-6" id='userchoice'>
+            <h2>User data</h2>
+            <p>See your personal data. You can also change your data if you want to. So much choice can be overwhelming, I know.</p>
+            
+            <form class="form-signin" method="post" action="index.php" id="showdata">
+                <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Show data">Show data</button>
+            </form>
+        
+        </div>
+        <div class="col-md-6" id='userchoice'>
+            <h2>Log out</h2>
+            <p>I know you don't really want to log out of this spectacularly interesting and beautiful page, but sometimes we
+            have to do things we don't want to do...</p>
+
+            <form class="form-signin" method="post" action="index.php" id="logout">
+                <button class="btn btn-lg btn-primary btn-block" type="submit" name="submit" value="Logout">Logout</button>
+            </form>
+
+        </div>
+    </div>
+</div>
